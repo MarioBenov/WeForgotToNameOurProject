@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            (\/) (°,,,°) (\/)
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.min.css" />
+        
+        <script type="text/javascript" src="scripts/lib/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="scripts/lib/jquery-ui-1.10.4.min.js"></script>
+        <script type="text/javascript" src="scripts/lib/jquery.mockjax.js"></script>
+        
+        <script type="text/javascript" src="scripts/UT.moduleIcon.js"></script>
+        
+        <script data-main="scripts/main" src="scripts/lib/require.js"></script>
+        
+    </head>
+    <body>
+        <div id="mainContent">
+            <div id="header">
+                <div class="activeModuleNameWrapper">
+                    <span id="activeModuleName"></span>
+                </div>
+                <div id="headerButtons">
+                    <div id="loginButton" title="Login" class="buttonWrapper">
+                        <img class="headerButton" src="css/images/login.jpg" />
+                    </div>
+                    <div id="logoutButton" title="Logout" class="buttonWrapper">
+                        <img class="headerButton" src="css/images/logout.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div id="moduleBar">
+                <div class="moduleIcon"><img /></div>
+                <div class="divider"></div>
+            </div>
+            <div id="mainContainer"></div>
+        </div>
+        <div id="loginContainer" style="display:none;">
+            <form id="loginForm">
+                <div class="wrap">
+                    <label>Username</label>
+                    <input id="loginName" type="text" />
+                </div>
+                <div class="wrap">
+                    <label>Password</label>
+                    <input id="loginPassword" type="password" />
+                </div>
+            </form>
+        </div>
+    </body>   
+</html>
